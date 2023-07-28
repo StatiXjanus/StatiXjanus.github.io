@@ -4,3 +4,8 @@
     
 }
 
+.sect1 {
+    position: absolute;
+    width: 50%;
+    height: 25px;
+}
