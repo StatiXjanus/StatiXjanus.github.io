@@ -7,5 +7,8 @@
 .sect1 {
     font-family: 'Courier New', Courier, monospace;
     background-color:white;
-    padding: auto;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 25%;
+    padding-bottom: 25%;
 }
