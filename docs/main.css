@@ -1,0 +1,23 @@
+body {
+    background-color: #ffff00;
+}
+
+#word {
+    text-align: center;
+    color: #cc6600;
+}
+
+#counter {
+    color: #1c63e6;
+    
+}
+
+#guessed {
+    color: #1c63e6;
+}
+
+#result {
+    text-align: center;
+    color: lightcoral;
+    background-color: black;
+}
