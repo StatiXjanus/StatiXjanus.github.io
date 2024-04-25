@@ -1,0 +1,28 @@
+body {
+    background-color: #ffff00;
+    font-size: 200%;
+}
+
+#word {
+    
+    text-align: center;
+    color: #cc6600;
+}
+
+#counter {
+    
+    color: #1c63e6;
+    
+}
+
+#guessed {
+    font-size: larger;
+    color: #1c63e6;
+}
+
+#result {
+    
+    text-align: center;
+    color: lightcoral;
+    background-color: black;
+}

@@ -1,0 +1,42 @@
+#game {
+    position: absolute;
+    background-color: gray;
+    height: 550px;
+    width: 550px;
+    margin-left: 2050px;
+    top: 950px;
+    scale: 4;
+}
+
+#character {
+    position: absolute;
+    background-color: yellow;
+
+    height: 50px;
+    width: 50px;
+
+    left: 245px;
+    bottom: 150px;
+}
+
+#obstacle {
+    background-color: black;
+    position: absolute;
+    height: 100px;
+    width: 20px;
+    animation: fall 1s linear infinite;
+}
+
+
+
+#score {
+    position: absolute;
+    font-family: 'Times New Roman';
+    right: 430px;
+    bottom: 480px;
+}
+
+@keyframes fall {
+    0% {bottom: 450px;}
+    100% {bottom: 0px;}
+}

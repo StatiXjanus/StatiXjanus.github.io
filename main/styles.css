@@ -1,0 +1,73 @@
+body {
+    background-color: #221C35;
+}
+
+#mark1 {
+    position: absolute;
+    top: -1px;
+}
+
+#mark2 {
+    position: absolute;
+    bottom: -1px;
+}
+
+#mark3 {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+}
+
+#mark4 {
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+}
+
+
+
+
+.row1 {
+    font-size: 80px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+
+
+
+#hangman {
+    display: inline-block;
+    background-color: yellow;
+    width: 600px;
+    height: 350px;
+    border-radius: 15%;
+    text-align: center;
+    font-family: "Comic Sans MS";
+   
+}
+
+/* Not ready
+#tic-tac-toe {
+    display: inline-block;
+    background-color: blue;
+    margin-left: 100px;
+    width: 600px;
+    height: 350px;
+    border-radius: 15%;
+    text-align: center;
+    font-family: "Comic Sans MS";
+}
+*/
+
+#block-evade {
+    display: inline-block;
+    background-color: green;
+    margin-left: 100px;
+    width: 600px;
+    height: 350px;
+    border-radius: 15%;
+    text-align: center;
+    font-family: "Comic Sans MS";
+}

@@ -1,0 +1,101 @@
+#txt {
+    text-align: center;
+}
+
+#txt2 {
+    text-align: center;
+}
+
+
+#txt3 {
+    text-align: center;
+}
+
+#txt4 {
+    text-align: center;
+    color: white;
+}
+
+#circle1 {
+    z-index: 9;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: darkblue;
+    position: absolute;
+}
+
+#circle2 {
+    z-index:10 ;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: darkseagreen;
+    position: absolute;
+    left: 100px;
+}
+
+#circle3 {
+    z-index: 11;
+    text-align: center;
+    width: 100px;
+    height:150px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: 800px;
+    bottom: 200px;
+    position: absolute;
+}
+
+#puzzle2 {
+    visibility: hidden;
+}
+
+
+#shapes {
+    
+    visibility: hidden;
+}
+
+
+
+#square {
+    left:600px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: green;
+}
+
+#triangle {
+    
+    width: 0;
+	height: 0;
+    position: absolute;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid red;
+}
+
+#circle {
+    left:1200px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+#riddle {
+    z-index: 5;
+    visibility: hidden;
+    text-align: bottom;
+    color: red;
+    position: absolute;
+}
+
+#win {
+    text-align: center;
+}
