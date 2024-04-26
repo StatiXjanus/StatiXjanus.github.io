@@ -1,6 +1,18 @@
 var hangman = document.getElementById('hangman');
 var tic_tac = document.getElementById('tic-tac-toe');
 var block_evade = document.getElementById('block-evade');
+var mark1 = document.getElementById('block1');
+
+
+//---------EXIT-------------//
+
+mark1.addEventListener('click', ()=> {
+    window.close()
+})
+
+
+//--------------------------
+
 
 
 //---------------------------------------------
