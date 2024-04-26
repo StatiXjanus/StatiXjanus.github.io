@@ -1,0 +1,56 @@
+
+body {
+    background-image: url('parts\\space.jpg');
+    background-size: cover;
+    scale: 0.7;
+}
+
+.sun {
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.orbit {
+    border: 0.5px white solid ;
+    border-radius: 50%;
+}
+
+.earth-orbit {
+    height: 150px;
+    width: 150px;
+    margin-top: -100px;
+    margin-left: -49px;
+    animation: orbit 10s linear infinite;
+}
+
+.earth {
+    background-image: url('parts\\earth.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 10s linear alternate infinite;
+    box-shadow: -10px 5px 5px 3px inset;
+    margin-left: 100px;
+    
+}
+
+.moon-orbit {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    margin-left: 89px;
+    margin-top: -40px;
+    animation: orbit 10s linear infinite;
+}
+
+
+
+@keyframes spin {
+    100% {background-position: 100%;}
+}
+
+@keyframes orbit {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
+}
