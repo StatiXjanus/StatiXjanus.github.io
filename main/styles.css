@@ -38,7 +38,7 @@ body {
 
 
 #hangman {
-    position: absolute;
+    position: relative;
     display: inline-block;
     background-color: yellow;
     width: 450px;
@@ -63,7 +63,7 @@ body {
 */
 
 #block-evade {
-    position:absolute;
+    position:relative;
     display: inline-block;
     background-color: green;
     margin-left: 150px;
