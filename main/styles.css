@@ -41,7 +41,7 @@ body {
     position: absolute;
     display: inline-block;
     background-color: yellow;
-    width: 420px;
+    width: 450px;
     height: 350px;
     border-radius: 15%;
     text-align: center;
@@ -67,7 +67,7 @@ body {
     display: inline-block;
     background-color: green;
     margin-left: 150px;
-    width: 420px;
+    width: 450px;
     height: 350px;
     border-radius: 15%;
     text-align: center;
