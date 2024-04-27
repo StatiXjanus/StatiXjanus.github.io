@@ -1,0 +1,148 @@
+
+body {
+    background-image: url("space_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    scale: 0.5;
+}
+
+.sun {
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 350px;
+    text-align: center;
+    
+}
+
+.orbit {
+    
+    position: absolute;
+    border: 1px white solid;
+    border-radius: 50%;
+    
+}
+
+.mercury-orbit {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    margin-top: -250px;
+    margin-left: -45px;
+    animation: orbit 3s infinite linear;
+}
+
+.mercury {
+    position: absolute;
+    padding-left: 60px;
+}
+
+
+.venus-orbit {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    margin-top: -300px;
+    margin-left: -90px;
+    animation: orbit 5s infinite linear;
+}
+
+.venus {
+    position: absolute;
+    padding-left: 80px;
+}
+
+
+.earth-orbit {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    margin-top: -350px;
+    margin-left: -145px;
+    animation: orbit 9s infinite linear;
+}
+
+.earth {
+    position: absolute;
+    padding-left: 95px;
+    padding-top: -105px;
+}
+
+.mars-orbit {
+    position: absolute;
+    height: 620px;
+    width: 620px;
+    margin-top: -410px;
+    margin-left: -210px;
+    animation: orbit 12s infinite linear;
+}
+
+.mars {
+    position: absolute;
+    padding-left: 130px;
+}
+
+.jupiter-orbit {
+    position: absolute;
+    height: 750px;
+    width: 750px;
+    margin-top: -470px;
+    margin-left: -270px;
+    animation: orbit 15s infinite linear;
+}
+
+.jupiter {
+    position: absolute;
+    padding-left: 160px;
+    padding-top: -40px;
+}
+
+.saturn-orbit {
+    position: absolute;
+    height: 910px;
+    width: 910px;
+    margin-top: -543px;
+    margin-left: -340px;
+    animation: orbit 20s infinite linear;
+}
+
+.saturn {
+    position: absolute;
+    padding-left: 180px;
+    padding-bottom: -30px;
+}
+
+.uranus-orbit {
+    position: absolute;
+    height: 1100px;
+    width: 1100px;
+    margin-top: -640px;
+    margin-left: -440px;
+    animation: orbit 30s infinite linear;
+}
+
+.uranus {
+    position: absolute;
+    padding-left: 240px;
+}
+
+.neptune-orbit {
+    position: absolute;
+    height: 1350px;
+    width: 1350px;
+    margin-top: -760px;
+    margin-left: -550px;
+    animation: orbit 41s infinite linear;
+}
+
+.neptune {
+    position: absolute;
+    padding-left: 350px;
+}
+
+@keyframes orbit {
+    from {transform: rotate(0);}
+    to {transform: rotate(360deg);}
+}
