@@ -18,8 +18,8 @@ body {
 }
 
 .earth-orbit {
-    height: 710px;
-    width: 710px;
+    height: 510px;
+    width: 510px;
     margin-top: -450px;
     margin-left: -95px;
     animation: orbit 10s linear infinite;
@@ -39,8 +39,8 @@ body {
 
 .moon-orbit {
     position: relative;
-    height: 110px;
-    width: 110px;
+    height: 130px;
+    width: 130px;
     margin-left: 75px;
     margin-top: -75px;
     animation: orbit 10s linear infinite;
