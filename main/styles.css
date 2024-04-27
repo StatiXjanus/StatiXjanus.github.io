@@ -1,10 +1,11 @@
 body {
     background-color: #221C35;
+    scale: 1;
 }
 
 #mark1 {
     position: absolute;
-    top: -1px;
+    top: 0px;
 }
 
 #mark2 {
@@ -20,7 +21,7 @@ body {
 
 #mark4 {
     position: absolute;
-    bottom: -1px;
+    bottom: -0.5px;
     right: -1px;
 }
 
@@ -28,21 +29,19 @@ body {
 
 
 .row1 {
-    font-size: 80px;
+    font-size: 20px;
     text-align: center;
-    margin-left: 200px;
-    margin-top: 200px;
+    margin-left: 100px;
 }
 
 
 
 
 #hangman {
-    position: relative;
     display: inline-block;
     background-color: yellow;
-    width: 450px;
-    height: 350px;
+    width: 200px;
+    height: 100px;
     border-radius: 15%;
     text-align: center;
     font-family: "Comic Sans MS";
@@ -63,13 +62,42 @@ body {
 */
 
 #block-evade {
-    position:relative;
     display: inline-block;
     background-color: green;
-    margin-left: 150px;
-    width: 450px;
-    height: 350px;
+    margin-left: 100px;
+    width: 200px;
+    height: 100px;
     border-radius: 15%;
     text-align: center;
     font-family: "Comic Sans MS";
+}
+
+.row2 {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+#solar-system {
+    display: inline-block;
+    background-color: darkblue;
+    width: 200px;
+    height: 100px;
+    border-radius: 15%;
+    text-align: center;
+    font-family: "Comic Sans MS";
+
+}
+
+#earth {
+    display: inline-block;
+    background-color:darkcyan;
+    margin-left: 100px;
+    width: 200px;
+    height: 100px;
+    border-radius: 15%;
+    text-align: center;
+    font-family: "Comic Sans MS";
+
 }
