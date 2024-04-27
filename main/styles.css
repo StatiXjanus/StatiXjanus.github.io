@@ -40,8 +40,8 @@ body {
 #hangman {
     display: inline-block;
     background-color: yellow;
-    width: 200px;
-    height: 100px;
+    width: 400px;
+    height: 300px;
     border-radius: 15%;
     text-align: center;
     font-family: "Comic Sans MS";
@@ -65,8 +65,8 @@ body {
     display: inline-block;
     background-color: green;
     margin-left: 100px;
-    width: 200px;
-    height: 100px;
+    width: 400px;
+    height: 300px;
     border-radius: 15%;
     text-align: center;
     font-family: "Comic Sans MS";
@@ -82,8 +82,8 @@ body {
 #solar-system {
     display: inline-block;
     background-color: darkblue;
-    width: 200px;
-    height: 100px;
+    width: 400px;
+    height: 300px;
     border-radius: 15%;
     text-align: center;
     font-family: "Comic Sans MS";
@@ -94,8 +94,8 @@ body {
     display: inline-block;
     background-color:darkcyan;
     margin-left: 100px;
-    width: 200px;
-    height: 100px;
+    width: 400px;
+    height: 300px;
     border-radius: 15%;
     text-align: center;
     font-family: "Comic Sans MS";
