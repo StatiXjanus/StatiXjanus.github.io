@@ -39,8 +39,8 @@ body {
 
 .moon-orbit {
     position: relative;
-    height: 610px;
-    width: 610px;
+    height: 110px;
+    width: 110px;
     margin-left: 75px;
     margin-top: -75px;
     animation: orbit 10s linear infinite;
