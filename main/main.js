@@ -75,19 +75,19 @@ earth.addEventListener('mouseout', () => {
 
 //OPEN/LINK
 hangman.addEventListener('click', () => {
-    window.open('http://127.0.0.1:5500/games/Hangman/main.html');
+    window.open('https://statixjanus.github.io/main/games/Hangman/main.html');
 })
 
 block_evade.addEventListener('click', () => {
-    window.open('http://127.0.0.1:5500/games/block-evade/index.html');
+    window.open('https://statixjanus.github.io/main/games/block-evade/index.html');
 })
 
 solar_system.addEventListener('click', () => {
-    window.open('http://127.0.0.1:5500/space/SolarSystem/index.html');
+    window.open('https://statixjanus.github.io/main/space/SolarSystem/index.html');
 })
 
 earth.addEventListener('click', () => {
-    window.open('http://127.0.0.1:5500/space/Earth-sun/index.html');
+    window.open('https://statixjanus.github.io/main/space/Earth-sun/index.html');
 })
 
 
