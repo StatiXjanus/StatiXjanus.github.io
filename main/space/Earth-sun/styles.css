@@ -18,8 +18,8 @@ body {
 }
 
 .earth-orbit {
-    height: 510px;
-    width: 510px;
+    height: 310px;
+    width: 310px;
     margin-top: -450px;
     margin-left: -95px;
     animation: orbit 10s linear infinite;
