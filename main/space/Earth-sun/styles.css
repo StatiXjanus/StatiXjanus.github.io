@@ -20,8 +20,8 @@ body {
 .earth-orbit {
     height: 500px;
     width: 500px;
-    margin-top: -430px;
-    margin-left: -95px;
+    margin-top: -400px;
+    margin-left: -86px;
     animation: orbit 10s linear infinite;
 }
 
@@ -41,8 +41,8 @@ body {
     position: relative;
     height: 130px;
     width: 130px;
-    margin-left: 75px;
-    margin-top: -75px;
+    margin-left: 85px;
+    margin-top: -79px;
     animation: orbit 10s linear infinite;
 }
 
