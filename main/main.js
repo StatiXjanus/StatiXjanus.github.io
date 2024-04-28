@@ -3,6 +3,13 @@ var tic_tac = document.getElementById('tic-tac-toe');
 var block_evade = document.getElementById('block-evade');
 var solar_system = document.getElementById('solar-system');
 var earth = document.getElementById('earth');
+
+//---------------------------------------------
+mark1 = document.getElementById('mark1');
+mark2 = document.getElementById('mark2');
+mark3 = document.getElementById('mark3');
+mark4 = document.getElementById('mark4');
+
 //---------------------------------------------
 hangman.addEventListener('mouseover', () => {
     hangman.style.background = 'red';
@@ -88,6 +95,24 @@ solar_system.addEventListener('click', () => {
 
 earth.addEventListener('click', () => {
     window.open('https://statixjanus.github.io/main/space/Earth-sun/index.html');
+})
+
+//EXIT
+
+mark1.addEventListener('click', ()=> {
+    window.close()
+})
+
+mark2.addEventListener('click', ()=> {
+    window.close()
+})
+
+mark3.addEventListener('click', ()=> {
+    window.close()
+})
+
+mark4.addEventListener('click', ()=> {
+    window.close()
 })
 
 
