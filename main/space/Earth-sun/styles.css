@@ -2,7 +2,7 @@
 body {
     background-image: url('parts\\space.jpg');
     background-size: cover;
-    
+    overflow:hidden;
 }
 
 
@@ -29,8 +29,8 @@ body {
     background-image: url('parts\\earth.jpg');
     background-size: cover;
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     animation: spin 10s linear alternate infinite;
     box-shadow: 10px 5px 5px 3px inset;
     margin-left: 60px;
@@ -39,8 +39,8 @@ body {
 
 .moon-orbit {
     position: relative;
-    height: 160px;
-    width: 160px;
+    height: 140px;
+    width: 140px;
     margin-left: 37px;
     margin-top: -125px;
     animation: orbit 10s linear infinite;
