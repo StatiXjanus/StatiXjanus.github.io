@@ -33,14 +33,14 @@ body {
     height: 100px;
     animation: spin 10s linear alternate infinite;
     box-shadow: 10px 5px 5px 3px inset;
-    margin-left: 80px;
+    margin-left: 60px;
     
 }
 
 .moon-orbit {
     position: relative;
-    height: 140px;
-    width: 140px;
+    height: 160px;
+    width: 160px;
     margin-left: 85px;
     margin-top: -69px;
     animation: orbit 10s linear infinite;
@@ -49,6 +49,7 @@ body {
 .moon {
     position: absolute;
     left: 75px;
+    top: -25px;
 }
 
 /*
