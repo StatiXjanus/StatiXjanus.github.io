@@ -5,10 +5,10 @@ var solar_system = document.getElementById('solar-system');
 var earth = document.getElementById('earth');
 
 //---------------------------------------------
-mark1 = document.getElementById('mark1');
-mark2 = document.getElementById('mark2');
-mark3 = document.getElementById('mark3');
-mark4 = document.getElementById('mark4');
+var mark1 = document.getElementById('mark1');
+var mark2 = document.getElementById('mark2');
+var mark3 = document.getElementById('mark3');
+var mark4 = document.getElementById('mark4');
 
 //---------------------------------------------
 hangman.addEventListener('mouseover', () => {
