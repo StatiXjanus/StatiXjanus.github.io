@@ -100,19 +100,19 @@ earth.addEventListener('click', () => {
 //EXIT
 
 mark1.addEventListener('click', ()=> {
-    window.close()
+    window.close('https://statixjanus.github.io/main/')
 })
 
 mark2.addEventListener('click', ()=> {
-    window.close()
+    window.close('https://statixjanus.github.io/main/')
 })
 
 mark3.addEventListener('click', ()=> {
-    window.close()
+    window.close('https://statixjanus.github.io/main/')
 })
 
 mark4.addEventListener('click', ()=> {
-    window.close()
+    window.close('https://statixjanus.github.io/main/')
 })
 
 
