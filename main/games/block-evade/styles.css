@@ -17,7 +17,7 @@
     width: 50px;
 
     left: 245px;
-    bottom: 200px;
+    bottom: 150px;
 }
 
 #obstacle {
@@ -34,7 +34,7 @@
     position: absolute;
     font-family: 'Times New Roman';
     right: 450px;
-    bottom: 465px;
+    bottom: 500px;
 }
 
 @keyframes fall {
