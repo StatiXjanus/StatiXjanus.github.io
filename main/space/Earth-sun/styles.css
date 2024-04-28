@@ -41,8 +41,8 @@ body {
     position: relative;
     height: 160px;
     width: 160px;
-    margin-left: 85px;
-    margin-top: -69px;
+    margin-left: 65px;
+    margin-top: -80px;
     animation: orbit 10s linear infinite;
 }
 
