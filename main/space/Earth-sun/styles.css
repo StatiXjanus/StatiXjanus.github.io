@@ -41,7 +41,7 @@ body {
     position: relative;
     height: 160px;
     width: 160px;
-    margin-left: 40px;
+    margin-left: 37px;
     margin-top: -125px;
     animation: orbit 10s linear infinite;
 }
@@ -52,7 +52,7 @@ body {
     top: -18px;
 }
 
-/*
+
 @keyframes spin {
     100% {background-position: 100%;}
 }
