@@ -1,10 +1,10 @@
 #game {
     position: absolute;
     background-color: gray;
-    height: 440px;
-    width: 440px;
-    margin-left: 200px;
-    top: 350px;
+    height: 540px;
+    width: 540px;
+    margin-left: 250px;
+    top: 150px;
 
     overflow:hidden;
 }
