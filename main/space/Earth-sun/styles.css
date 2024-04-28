@@ -42,7 +42,7 @@ body {
     height: 160px;
     width: 160px;
     margin-left: 40px;
-    margin-top: -115px;
+    margin-top: -125px;
     animation: orbit 10s linear infinite;
 }
 
