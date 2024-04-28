@@ -33,7 +33,7 @@ body {
     height: 60px;
     animation: spin 10s linear alternate infinite;
     box-shadow: 10px 5px 5px 3px inset;
-    margin-left: 60px;
+    margin-left: 75px;
     
 }
 
@@ -42,7 +42,7 @@ body {
     height: 140px;
     width: 140px;
     margin-left: 37px;
-    margin-top: -125px;
+    margin-top: -95px;
     animation: orbit 10s linear infinite;
 }
 
