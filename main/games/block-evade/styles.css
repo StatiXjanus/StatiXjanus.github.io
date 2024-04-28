@@ -33,8 +33,8 @@
 #score {
     position: absolute;
     font-family: 'Times New Roman';
-    right: 430px;
-    bottom: 480px;
+    right: 450px;
+    bottom: 465px;
 }
 
 @keyframes fall {
